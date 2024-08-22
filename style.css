@@ -1,0 +1,118 @@
+
+body{
+    background-color: rgb(38, 44, 68); 
+    font-family: "Poppins", sans-serif;
+    color:white;
+
+}
+#details{
+    padding: 30px;
+
+}
+#name{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    color:white;
+
+    
+}
+.accountLinks{
+    display:flex;
+    gap: 30px;
+    display:flex;
+    justify-content: center;
+}
+#accountLink-1:hover{
+    transform: scale(1.2);
+}
+#accountLink-2:hover{
+    transform: scale(1.2);
+}
+#skills{
+    padding-left: 40px;
+}
+#skillsGroup{
+    display:flex;
+    justify-content: left;
+    gap: 40px;
+
+}
+
+
+.skills:hover{
+    transform: scale(1.3)
+
+}
+
+#skillsTitle {
+    display:flex;
+    justify-content: left;
+    font-size: 30px;
+}
+.skills.skills-4{
+    padding-top: 8px;
+}
+
+.skills.skills-5 {
+    padding-top: 15px;
+}
+
+h2{
+    color:white;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+#navbar a {
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    display:block;
+    text-align: center;
+}
+#navbar a:hover{
+    background-color: hsl(240, 19%, 32%);
+    border-radius: 50px;
+}
+#navbar li{
+    float: left;
+}
+
+#aboutMe {
+    padding: 40px;
+    font-size: 30px;
+}
+
+#aboutMe p {
+    font-size: 25px;
+
+}
+
+#projectTitle{
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+}
+
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    height: 70vh;
+
+}
+
+.projects .image{
+    border: white solid 2px;
+}
+.projects .image:hover{
+    transform: scale(1.05);
+}
